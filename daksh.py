@@ -9,13 +9,13 @@ import time as time_module
 from keep_alive import keep_alive
 keep_alive()
 # insert your Telegram bot token here
-bot = telebot.TeleBot('7561613639:AAHhAyIaIMT4p0CWBiJO_hsGYBxJdBSMtvk')
+bot = telebot.TeleBot('7610589500:AAEM_7c9r4VH360L80aHvq3lOyTO4ebA3b0)
 
 # Admin user IDs
-admin_id = ["5019747597", "5056902784"]
+admin_id = ["775750246", "5019747597"]
 
 # Assuming CHANNEL_ID is defined globally
-CHANNEL_ID = '-1002424199347'  # Replace with your actual channel ID or username
+CHANNEL_ID = '-1002334957266'  # Replace with your actual channel ID or username
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -52,7 +52,7 @@ allowed_user_ids = read_users()
 
 # Function to log command to the file
 def log_command(user_id, target, port, time):
-    admin_id = ["5019747597"]
+    admin_id = ["775750246"]
     user_info = bot.get_chat(user_id)
     if user_info.username:
         username = "@" + user_info.username
